@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Bài 3-FORM</title>
+</head>
+<body>
+    
+    <h2>Câu 1: Tạo form Đăng ký tài khoản</h2>
+
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" autocomplete="on" method="POST">
+    
+    <label for="fullName">Họ tên:</label>
+    <br/>
+    <input type="text" name="hoTen" id="fullName" placeholder="Ví dụ: levena"/>
+    
+    <br/> 
+
+    <label for="email">Email:</label>
+    <br/>
+    <input type="text" nanme="email" id="email" placeholder="Ví dụ: levena@gmail.com"/>
+
+    <br/>
+
+    <label for="pass">Mật khẩu:</label>
+    <br/>
+    <input type="password" name="matKhau" id="pass">
+    
+    <br/>
+    <br/>
+    <button>Đăng ký</button>
+    </form>
+
+    <!-- ......................................................................................................... -->
+
+    <h2>Câu 2: Tạo form đăng ký chi tiết</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="blank_" autocomplete="on" method="POST">
+        
+        <label for="fullName">Họ Tên:</label>
+        <br/>
+        <input type="text" id="fullName" name="hoTen"/>
+        
+        <br/>
+
+        <label for="email">Email:</label>
+        <br/>
+        <input type="email" id="email" name="email"/>
+
+        <br/>
+    
+        <label for="pass1">Mật khẩu:</label>
+        <br/>
+        <input type="password" id="pass1" name="matKhau"/>
+
+        <br/>
+
+        <label for="pass2">Xác nhận lại mật khẩu:</label>
+        <br/>
+        <input type="password" id="pass2" name="matKhau"/>
+
+        <br/>
+
+        <label>Giới Tính:</label>
+        <br/>
+        <input type="radio" name="gioiTinh" id="nam" value="nam">
+        <label for="nam">Nam</label>
+        <br/>
+        <input type="radio" name="gioiTinh" id="nu" value="nu">
+        <label for="nu">Nữ</label>
+        <br/>
+        <input type="radio" name="gioiTinh" id="khac" value="khac">
+        <label for="khac">Khác</label>
+        
+        <br/>
+
+        <label for="country">Quốc gia:</label>
+        <br/>
+        <select id="country" name="quocGia">
+            <option value="VN">Việt Nam</option>
+            <option value="TL">Thái Lan</option>
+            <option value="TQ">Trung Quốc</option>
+        </select>
+        
+        <br/>
+        <br/> 
+
+        <button>Đăng ký</button>
+    </form>
+
+    <!-- ......................................................................................................... -->
+    
+    <h2>Câu 3: Tạo form đánh giá sản phẩm</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="blank_" autocomplete="on" method="POST">
+    <label for="tenSanPham">Tên Sản Phẩm:</label>
+    <br/>
+    <input type="text" id="tenSanPham" name="tenSanPham">
+    
+    <br/>
+
+    <label>Đánh Giá:</label>
+    <br/>
+    <input type="radio" id="danhGia" name="danhGia" value="5sao">
+    <label for="danhGia">5 sao</label>
+    <br/>
+    <input type="radio" id="danhGia" name="danhGia" value="4sao">
+    <label for="danhGia">4 sao</label>
+    <br/>
+    <input type="radio" id="danhGia" name="danhGia" value="3sao">
+    <label for="danhGia">3 sao</label>
+    <br/>
+    <input type="radio" id="danhGia" name="danhGia" value="2sao">
+    <label for="danhGia">2 sao</label>
+    <br/>
+    <input type="radio" id="danhGia" name="danhGia" value="1sao">
+    <label for="danhGia">1 sao</label>
+
+    <br/>
+    
+    <label for="comments">Bình Luận:</label>
+    <br/>
+    <textarea id="comments" name="binhLuan" rows="4" cols="20"></textarea>
+    
+    <br/>
+    <br/>
+    <button>Gửi đánh giá</button>
+    </form>
+    <!-- .......................................................................................................... -->
+
+    <h2>Câu 4:Tạo form Liên hệ</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="blank_" autocomplete="on" method="POST">
+
+        <label for="fullName">Họ và tên:</label>
+        <br/>
+        <input type="text" id="fullName" name="hoTen">
+        
+        <br/>
+
+        <label for="email">Email:</label>
+        <br/>
+        <input type="email" id="email" name="email">
+
+        <br/>
+
+        <label for="mess">Nội dung tin nhắn:</label>
+        <br/>
+        <textarea id="mess" name="tinNhan" rows="4" cols="15"></textarea>
+        
+        <br/>
+        <br/>
+        
+        <button>Gửi tin nhắn</button>
+    </form>
+    <!-- ........................................................................................................... -->
+
+    <h2>Câu 5: Tạo form đặt phóng khách sạn</h2>
+    <form action="https://www.w3schools.com/action_page.php"target="blank_" autocomplete="on" method="POST">
+
+        <label for="fullName">Họ và tên:</label>
+        <br/>
+        <input type="text" id="fullName" name="hoTen">
+
+        <br/>
+
+        <label for="email">Email:</label>
+        <br/>
+        <input type="email" id="email" name="email"/>
+
+        <br/>
+
+        <label for="ngayNhapPhong">Ngày nhận phòng:</label>
+        <br/>
+        <input type="date" id="ngayNhanPhong" name="ngayNhanPhong"/>
+
+        <br/>
+
+        <label for="ngayTraPhong">Ngày trả phòng</label>
+        <br/>
+        <input type="date" id="ngayTraPhong" name="ngayTraPhong"/>
+
+        <br/>
+
+        <label for="loaiPhong">Loại phòng</label>
+        <br/>
+        <select id="loaiPhong" name="loaiPhong">
+            <option value="phongThuong">Phòng thường</option>
+            <option value="phongVIP">Phòng VIP</option>
+            <option value="phongGD">Phòng gia đình</option>
+        </select>
+
+        <br/>
+
+        <label for="note">Yêu cầu đặc biệt:</label>
+        <br/>
+        <textarea id="note" name="yeuCau" rows="4" cols="15"></textarea>
+
+        <br/>
+        <br/>
+        <button>Đặt phòng</button>
+    </form>
+    <!-- ............................................................................................................. -->
+
+    <h2>Câu 6: Tạo form Tìm kiếm</h2>
+    <form action="https://www.w3schools.com/action_page.php"target="blank_" autocomplete="on" method="GET">
+        <input type="text" name="q" placeholder="Nhập từ khóa..." > 
+        <button>Tìm Kiếm</button>
+
+    </form>
+</body>
+</html>
